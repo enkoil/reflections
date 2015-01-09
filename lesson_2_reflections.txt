@@ -10,3 +10,10 @@ repository? What value do you think it offers?
      Having a staging area allows you to double check which files are going to
      be added to a commit and offers the flexibility to remove files which may
      have been accidentally added before committing.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+     Using the staging area along with the git diff command allows you to easily
+     compare the changes made in different files before deciding to make a
+     commit. You can review the changes and make sure they all relate to the
+     same logical change.
