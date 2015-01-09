@@ -1,0 +1,12 @@
+What happens when you initialize a repository? Why do you need to do it?
+     The .git hidden directory is created when you initialize a repository.
+     A repository must be initialized before you can use the Git VC system
+     withing a directory.
+
+How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+     The staging area is the step between the working directory and the
+     repository. It is like a "test step" before actually creating a commit.
+     Having a staging area allows you to double check which files are going to
+     be added to a commit and offers the flexibility to remove files which may
+     have been accidentally added before committing.
