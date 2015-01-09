@@ -17,3 +17,11 @@ change?
      compare the changes made in different files before deciding to make a
      commit. You can review the changes and make sure they all relate to the
      same logical change.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+     If you want to experiment with adding a new feature then having a branch
+     would be helpful because you can continue to develop the main project while
+     separately keeping track of any experimental changes made. Branches also
+     make it easy to switch between experimental version and main versions of
+     the project; just check out the branch you wish to use.
