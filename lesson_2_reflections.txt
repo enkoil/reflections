@@ -31,3 +31,11 @@ How do the diagrams help you visualize the branch structure?
      to each other. They can be more clear than the linear structure of
      git log because they are drawn in two dimensions, making very obvious the
      order of commits and the starting points of branches.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+     The two head files of each branch are merged with the commit before each
+     branch split off serving as the "original file". The commit where the
+     branches were merged has two parents, the old head commits of each branch.
+     The diagram makes it clear which commits are still attached and will show
+     up in git log and which (if any) become detached and lost.
