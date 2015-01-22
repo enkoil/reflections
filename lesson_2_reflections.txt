@@ -25,3 +25,9 @@ organized? How would branches help?
      separately keeping track of any experimental changes made. Branches also
      make it easy to switch between experimental version and main versions of
      the project; just check out the branch you wish to use.
+
+How do the diagrams help you visualize the branch structure?
+     The diagrams make clear how different commits and branches are connected
+     to each other. They can be more clear than the linear structure of
+     git log because they are drawn in two dimensions, making very obvious the
+     order of commits and the starting points of branches.
