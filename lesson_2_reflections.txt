@@ -39,3 +39,16 @@ the diagram the way we do?
      branches were merged has two parents, the old head commits of each branch.
      The diagram makes it clear which commits are still attached and will show
      up in git log and which (if any) become detached and lost.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+     Pros: Git figures out how best to put two files together and only requires
+     intervention from the user in some cases. That saves time combing through
+     separate versions of files to find the differences manually. When there is
+     a merge git cannot complete it inserts nice markers to make it easy to
+     find the merge conflict.
+     Cons: The user must trust that git has merged files correctly and cannot be
+     completely confident that the merged file is accurate without double-
+     checking files after the merge. When solving a merge conflict it is
+     important to remember to remove git's markers so that they do not become a
+     bug in the code.
