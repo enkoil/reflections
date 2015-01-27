@@ -10,3 +10,13 @@ Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
      Pulling changes manually allows you full control over which files end up on
      your machine.
+
+Describe the differences between forks, clones, and branches. When would you use
+one instead of another?
+     Branches occur inside a repository and allow for experimentation in the
+     code within one repository. Clones copy a repository to a new location.
+     Forks are clones that occur exclusively on GitHub's servers. Forks allow
+     GitHub to automatically attribute the author of the original repository.
+     Use a fork to copy someone else's project completely inside GitHub. Use a
+     clone to copy a project from GitHub or another storage area onto your
+     local machine.
